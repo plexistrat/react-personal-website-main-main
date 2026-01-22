@@ -10,7 +10,7 @@ export default function Hero() {
 
   function downloadCv() {
     const link = document.createElement("a");
-    link.href = "/SakisStaikosCV#1.pdf";
+    link.href = "/SakisStaikosCV.pdf";
     link.download = "CV.pdf";
     document.body.appendChild(link);
     link.click();
