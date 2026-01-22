@@ -28,6 +28,7 @@ const Footer = () => {
       </div>
 
       <p className="footer-email">drosostaikos@yahoo.gr</p>
+      <p className="footer-email">tell: +30 698 6161661</p>
       <p>All rights reserved © 2025 Sakis Staikos</p>
     </footer>
   );

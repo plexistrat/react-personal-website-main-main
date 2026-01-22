@@ -8,15 +8,14 @@ export default function Hero() {
     setIsVisible(true);
   }, []);
 
-function downloadCv() {
-  const link = document.createElement("a");
-  link.href = "/CV.pdf";       
-  link.download = "CV.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
+  function downloadCv() {
+    const link = document.createElement("a");
+    link.href = "/SakisStaikosCV.pdf";
+    link.download = "CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 
   return (
     <div className="hero-section">
@@ -45,13 +44,12 @@ function downloadCv() {
             Guitar/Music Tutor
           </h2>
         </div>
-             <button onClick={downloadCv} className="download-button">
-              {/* <Download size={20} className="download-icon" /> */} 
-              <span>Download CV</span> 
-              <span className="button-arrow">→</span> 
-              </button>      
-        </div>
-              
+        <button onClick={downloadCv} className="download-button">
+          {/* <Download size={20} className="download-icon" /> */}
+          <span>Download CV</span>
+          <span className="button-arrow">→</span>
+        </button>
+      </div>
     </div>
   );
 }
