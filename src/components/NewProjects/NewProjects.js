@@ -23,12 +23,18 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Dev Collective",
     description:
-      "A responsive personal website showcasing my work as both a music tutor and developer.",
-    image: "./personal website.jpeg",
-    link: "#",
-    technologies: ["React", "JavaScript", "HTML/CSS"],
+      "My first real job as a front-end developer at Dev Collective.",
+    image: "./devcollective.png",
+    link: "https://www.devcollective.gr/",
+    technologies: [
+      "Next.js",
+      "React Native",
+      "React",
+      "JavaScript",
+      "HTML/CSS",
+    ],
   },
   {
     id: 4,
